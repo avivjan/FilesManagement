@@ -20,7 +20,7 @@ namespace FilesManagementWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task UploadFileAsync(string fileToUploadPath)
+        public async Task UploadFileAsync([FromBody] string fileToUploadPath)
         {
             await service.UploadFileAsync(fileToUploadPath, null, CancellationToken.None);
         }
@@ -30,7 +30,17 @@ namespace FilesManagementWebApi.Controllers
         {
             await service.DeleteFileAsync(fileToDeletePath, null, CancellationToken.None);
         }
+
+        [HttpGet]
+        public async Task DownloadFileAsync(DownloadData downloadData)
+        {
+            await service.DownloadFileAsync(downloadData.targetLocalPath, downloadData.fileToDownloadRemotePath, downloadData.nameOfDownloadedFileLocally, null, CancellationToken.None);
+        }
+
+        [HttpPut]
+        public async Task UpdateFileAsync(UpdateData updateData)
+        {
+            await service.UpdateFileAsync(updateData.fileToUpdateRemotePath, updateData.updatedFileLocalPath, null, CancellationToken.None);
+        }
     }
-}
-}
 }
