@@ -1,0 +1,38 @@
+Here is some testing examples using postman:
+
+1. POST (Upload File)
+https://localhost:44395/API/FileServices
+Header = application/json 
+body: "C:\\Users\\אביב\\Desktop\\Developer\\CellebriteProject\\UploadFile.txt"
+
+
+
+
+2. DEL (Delete File)
+https://localhost:44395/API/FileServices
+Header = application/json 
+body: "UploadFile.txt"
+
+
+
+
+3. GET (Download File)
+https://localhost:44395/API/FileServices
+Header = application/json 
+body:
+{
+    "targetLocalPath": "C:\\Users\\אביב\\Desktop",
+    "fileToDownloadRemotePath": "UploadFile.txt",
+    "nameOfDownloadedFileLocally": "newTxtFile"
+}
+
+
+
+4. PUT (Update File)
+https://localhost:44395/API/FileServices
+Header = application/json 
+body:
+{
+    "fileToUpdateRemotePath": "UploadFile.txt",
+    "updatedFileLocalPath": "C:\\Users\\אביב\\Desktop\\UploadFile2.txt"
+}
