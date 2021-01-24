@@ -1,0 +1,7 @@
+Welcome To File managment:
+In Order to use this system you first need to install FTP server on your macine, you can use this great guide (below)
+Make sure You follow the guide :install the server, define the shared folder and create a user
+important!!: when you create a user define its username and password to be : test
+
+The guide :
+https://aavtech.site/2019/11/filezilla-server-for-local-network-in-windows-step-by-step-guide/
