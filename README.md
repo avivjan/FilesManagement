@@ -1,2 +1,2 @@
 # FilesManagement
-This project is a file management system that using FTP server. 
+This project is an ASP.NET Core API: file management system that using FTP server. 
