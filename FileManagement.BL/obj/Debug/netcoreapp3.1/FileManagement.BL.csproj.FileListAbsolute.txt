@@ -1,0 +1,4 @@
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\bin\Debug\netcoreapp3.1\FileManagement.Common.dll
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.csprojAssemblyReference.cache
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.AssemblyInfoInputs.cache
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.AssemblyInfo.cs

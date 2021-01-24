@@ -4,14 +4,80 @@
     "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj": {
+    "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.BL\\FileManagement.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj",
-        "projectName": "FilesManagement",
-        "projectPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj",
+        "projectUniqueName": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.BL\\FileManagement.BL.csproj",
+        "projectName": "FileManagement.BL",
+        "projectPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.BL\\FileManagement.BL.csproj",
         "packagesPath": "C:\\Users\\אביב\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\obj\\",
+        "outputPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\אביב\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.Common\\FileManagement.Common.csproj": {
+                "projectPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.Common\\FileManagement.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentFTP": {
+              "target": "Package",
+              "version": "[33.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.Common\\FileManagement.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.Common\\FileManagement.Common.csproj",
+        "projectName": "FileManagement.Common",
+        "projectPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.Common\\FileManagement.Common.csproj",
+        "packagesPath": "C:\\Users\\אביב\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +107,86 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj",
+        "projectName": "FilesManagement",
+        "projectPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj",
+        "packagesPath": "C:\\Users\\אביב\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\אביב\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.BL\\FileManagement.BL.csproj": {
+                "projectPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FileManagement.BL\\FileManagement.BL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.0-preview1-19509-03, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
