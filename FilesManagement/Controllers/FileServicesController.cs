@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Web.Helpers;
-using FileManagement.BL;
-using FileServices.Common;
+using FileManagement.Common;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FilesService.Controllers
+namespace FilesManagementWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -34,4 +31,6 @@ namespace FilesService.Controllers
             await service.DeleteFileAsync(fileToDeletePath, null, CancellationToken.None);
         }
     }
+}
+}
 }

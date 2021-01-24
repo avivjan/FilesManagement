@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesManagement", "FilesManagement.csproj", "{AA0EFB38-989F-483A-8735-8B5D921DAFED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesManagementWebApi", "FilesManagementWebApi.csproj", "{AA0EFB38-989F-483A-8735-8B5D921DAFED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManagement.Common", "..\FileManagement.Common\FileManagement.Common.csproj", "{5CE6CD67-B91F-40C6-A7E9-714EA80C369A}"
 EndProject

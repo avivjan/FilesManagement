@@ -1,4 +1,4 @@
-﻿namespace FilesService.Common
+﻿namespace FileManagement.Common
 {
     public class UserToken
     {

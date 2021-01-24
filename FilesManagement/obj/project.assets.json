@@ -8604,9 +8604,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj",
-      "projectName": "FilesManagement",
-      "projectPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagement.csproj",
+      "projectUniqueName": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagementWebApi.csproj",
+      "projectName": "FilesManagementWebApi",
+      "projectPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\FilesManagementWebApi.csproj",
       "packagesPath": "C:\\Users\\אביב\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\אביב\\Documents\\GitHub\\FilesManagement\\FilesManagement\\obj\\",
       "projectStyle": "PackageReference",

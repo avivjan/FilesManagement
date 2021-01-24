@@ -2,3 +2,10 @@ C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\bin\Debug\n
 C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.csprojAssemblyReference.cache
 C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.AssemblyInfoInputs.cache
 C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.AssemblyInfo.cs
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\bin\Debug\netcoreapp3.1\FileManagement.BL.deps.json
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\bin\Debug\netcoreapp3.1\FileManagement.BL.dll
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\bin\Debug\netcoreapp3.1\FileManagement.BL.pdb
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\bin\Debug\netcoreapp3.1\FileManagement.Common.pdb
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.csproj.CopyComplete
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.dll
+C:\Users\אביב\Documents\GitHub\FilesManagement\FileManagement.BL\obj\Debug\netcoreapp3.1\FileManagement.BL.pdb
